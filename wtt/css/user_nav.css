@@ -1,0 +1,16 @@
+nav.navbar.navbar-fixed-top{
+  background-color: #383c3d;
+}
+nav.navbar.navbar-fixed-top a{
+  color: #bdbdbd;
+}
+nav.navbar.navbar-fixed-top a:hover{
+  color: #fff;
+  background-color: transparent;
+}
+span.icon-bar {
+    background-color: white;
+}
+.navbar-toggle{
+    border: 1px solid rgba(0, 0, 0, 0.47);
+}

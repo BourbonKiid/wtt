@@ -1,0 +1,87 @@
+/*general style for navbar*/
+
+nav.navbar.navbar-inverse{
+	height: 59px;
+    background-color: #383c3d;
+    border: 0;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 0px;
+}
+div#myNavbarContainer{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+header{
+	width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+/***********************************************************************************************/
+
+/*setting logo as background of div*/
+
+.logo{
+	height: 259px;
+	background-position: bottom center;
+  background-size: contain;
+    /*background-repeat: no-repeat;*/
+}
+
+/***********************************************************************************************/
+
+/*making navbar centered*/
+
+.navbar-inverse .navbar-nav>li>a{
+	font-family: 'Calibri';
+  font-weight: 700;
+  font-size: 1em;
+  color: #bdbdbd;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+ul.nav.navbar-nav {
+    float: none;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#myNavbar{
+  text-align: center;
+}
+
+/***********************************************************************************************/
+
+/*pushing content down if screen is small*/
+
+@media (max-width: 767px) {
+  #myNavbar {
+    background-color: #383c3d;
+  }
+  #content-puscher{
+    height: 200px;
+    width: 100%;
+    transition : visibility 1s linear;
+  }
+   #content-puscher.hide{
+    visibility: hidden;
+  }
+}
+
+/***********************************************************************************************/
+
+/*navbar dropdown*/
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: inherit;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 5px;
+}
